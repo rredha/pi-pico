@@ -3,9 +3,9 @@
 pkgs.mkShell
 {
   nativeBuildInputs = with pkgs; [
-    pico-sdk
     cmake
     gcc-arm-embedded
+    python3
 
   ];
 
