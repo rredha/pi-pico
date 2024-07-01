@@ -10,7 +10,7 @@ pkgs.mkShell
   ];
 
   shellHook = ''
-   echo "Raspberry Pi Pico Development Env"
-
+    echo "Raspberry Pi Pico Development Env"
+    export PICO_SDK_PATH=/home/redha/wrk/repo/pi-pico/sdk/
   '';
 }
