@@ -1,4 +1,4 @@
 project/
-sdk/
+pico-sdk/
 cmake/
 .ccls-cache/
